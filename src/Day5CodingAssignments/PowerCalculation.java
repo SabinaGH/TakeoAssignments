@@ -32,12 +32,16 @@ public class PowerCalculation {
 
         int initialValue =0;
          int finalValue = 0;
+         int result = 1;
+
+
 
         //double a  = (double) Math.pow(5,5);
 
-         for(int i = 1; i<exponent;i++)
+         for(int i = 0; i<exponent;i++)
          {
-
+             result = result *numberEntered;
+/*
              if (i==1)
              {
                  initialValue = numberEntered*numberEntered;
@@ -49,9 +53,10 @@ public class PowerCalculation {
                  finalValue=initialValue;
              }
 
-
+*/
          }
-                System.out.println("The result is: "+finalValue);
+//                System.out.println("The result is: "+finalValue);
+        System.out.println("The result is: "+result);
 
 
 
